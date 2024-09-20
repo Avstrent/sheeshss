@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People's Info</title>
+    <link rel="stylesheet" href="ListNames.css">
+</head>
+
+<body>
+    <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <h1>Input a person's information</h1>
+    <div class="container">
+        <form id="inputForm" id="square">
+            <input type="Number" id="ID_num_input" placeholder="ID Number" required>
+            <input type="text" id="firstname_input" placeholder="First Name" required>
+            <input type="text" id="lastname_input" placeholder="Last Name" required>
+            <button type="submit">Add</button>
+        </form>
+    </div>
+    
+
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th>ID Number</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="ListNames.js"></script>
+</body>
+</html>
